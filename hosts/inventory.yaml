@@ -1,7 +1,7 @@
 app:
   hosts:
     ec2:
-      ansible_host: MY_APP_PRIVATE_IP
+      ansible_host: 10.1.1.155
     vars:
-      ansible_ssh_private_key_file: /home/ec2-user/.ssh/MY_KEYPAIR_NAME.pem
+      ansible_ssh_private_key_file: /home/ec2-user/.ssh/my-ec2-keypair.pem
       ansible_user: ec2-user
